@@ -23,7 +23,7 @@ namespace Tyuiu.LevakovaAA.Sprint5.Task0.V3
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Спринт #5                                                               *");
             Console.WriteLine("* Дано выражение вычислить его значение при x = 3, результат сохранить в  *");
-            Console.WriteLine("* текстовый файл OutPutFileTask0.txt и вывести на консоль.                *");
+            Console.WriteLine("* текстовый файл OutPutFileTask0.txt и вывести на консоль                 *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
