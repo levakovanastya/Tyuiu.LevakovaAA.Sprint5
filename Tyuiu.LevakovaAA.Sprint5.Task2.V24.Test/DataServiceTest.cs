@@ -1,9 +1,9 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using Tyuiu.LevakovaAA.Sprint5.Task2.V23.Lib;
+using Tyuiu.LevakovaAA.Sprint5.Task2.V24.Lib;
 using System;
 using System.IO;
-namespace Tyuiu.LevakovaAA.Sprint5.Task2.V23.Test
+namespace Tyuiu.LevakovaAA.Sprint5.Task2.V24.Test
 {
     [TestClass]
     public sealed class DataServiceTest

@@ -2,8 +2,8 @@
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Tyuiu.LevakovaAA.Sprint5.Task2.V23.Lib;
-namespace Tyuiu.LevakovaAA.Sprint5.Task2.V23
+using Tyuiu.LevakovaAA.Sprint5.Task2.V24.Lib;
+namespace Tyuiu.LevakovaAA.Sprint5.Task2.V24
 {
     class Programm
     {
@@ -19,7 +19,7 @@ namespace Tyuiu.LevakovaAA.Sprint5.Task2.V23
             Console.WriteLine("* Спринт #5                                                               *");
             Console.WriteLine("* Класс File. Запись структурированных данных в текстовый файл            *");
             Console.WriteLine("* Задание 2                                                               *");
-            Console.WriteLine("* Вариант #23                                                             *");
+            Console.WriteLine("* Вариант #24                                                             *");
             Console.WriteLine("* Выполнила: Левакова А.А. | СМАРТб-25-1                                  *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
@@ -33,7 +33,7 @@ namespace Tyuiu.LevakovaAA.Sprint5.Task2.V23
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("Массив:");
 
-            for (int i  = 0; i < rows; i++)
+            for (int i = 0; i < rows; i++)
             {
                 for (int j = 0; j < columns; j++)
                 {
@@ -54,4 +54,3 @@ namespace Tyuiu.LevakovaAA.Sprint5.Task2.V23
         }
     }
 }
-

@@ -4,9 +4,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 using tyuiu.cources.programming.interfaces.Sprint5;
-namespace Tyuiu.LevakovaAA.Sprint5.Task2.V23.Lib
+namespace Tyuiu.LevakovaAA.Sprint5.Task2.V24.Lib
 {
-    public class DataService : ISprint5Task2V23
+    public class DataService : ISprint5Task2V24
     {
         public string SaveToFileTextData(int[,] matrix)
         {
@@ -52,5 +52,5 @@ namespace Tyuiu.LevakovaAA.Sprint5.Task2.V23.Lib
             }
             return path;
         }
-    } 
+    }
 }
