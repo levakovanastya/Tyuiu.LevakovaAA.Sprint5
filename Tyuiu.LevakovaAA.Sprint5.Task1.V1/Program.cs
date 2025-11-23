@@ -3,40 +3,42 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Tyuiu.LevakovaAA.Sprint5.Task1.V1.Lib;
-namespace Tyuiu.LevakovaAA.Sprint5.Task0.V3
+namespace Tyuiu.LevakovaAA.Sprint5.Task1.V1
 {
     class Programm
     {
         static void Main(string[] args)
         {
-            int x = 3;
             DataService ds = new DataService();
+            int startValue = -5;
+            int stopValue = 5;
 
             Console.Title = "Спринт #5 | Выполнила: Левакова А.А. | СМАРТб-25-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #5                                                               *");
-            Console.WriteLine("* Класс File. Запись данных в текстовый файл                              *");
-            Console.WriteLine("* Задание 0                                                               *");
-            Console.WriteLine("* Вариант #3                                                              *");
+            Console.WriteLine("* Класс File. Запись набора данных в текстовый файл                       *");
+            Console.WriteLine("* Задание 1                                                               *");
+            Console.WriteLine("* Вариант #1                                                              *");
             Console.WriteLine("* Выполнила: Левакова А.А. | СМАРТб-25-1                                  *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Спринт #5                                                               *");
-            Console.WriteLine("* Дано выражение вычислить его значение при x = 3, результат сохранить в  *");
-            Console.WriteLine("* текстовый файл OutPutFileTask0.txt и вывести на консоль                 *");
+            Console.WriteLine("* Дана функция, произвести табулирование на диапазоне [-5; 5] с шагом 1.  *");
+            Console.WriteLine("* Произвести проверку деления на 0. Результат сохранить в текстовый файл  *");
+            Console.WriteLine("* OutPutFileTask0.txt и вывести на консоль в таблицу                      *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("x = " + x);
+            Console.WriteLine("startValue = " + startValue);
+            Console.WriteLine("stopValue = " + stopValue);
 
-            Console.WriteLine();
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            string res = ds.SaveToFileTextData(x);
+            string res = ds.SaveToFileTextData(startValue, stopValue);
 
             Console.WriteLine("Файл: " + res);
             Console.WriteLine("Создан!");
