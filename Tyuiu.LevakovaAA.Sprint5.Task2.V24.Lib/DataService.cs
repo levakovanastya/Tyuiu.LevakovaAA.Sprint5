@@ -10,7 +10,7 @@ namespace Tyuiu.LevakovaAA.Sprint5.Task2.V24.Lib
     {
         public string SaveToFileTextData(int[,] matrix)
         {
-            string path = Path.Combine(Path.GetTempPath(), "OutPutFileTask2.csv");
+            string path = $@"{Directory.GetCurrentDirectory()}\OutPutFileTask2.csv";
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;
             if (fileExists)
