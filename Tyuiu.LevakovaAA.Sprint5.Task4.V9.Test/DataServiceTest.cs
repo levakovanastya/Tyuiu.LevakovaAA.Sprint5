@@ -11,8 +11,7 @@ namespace Tyuiu.LevakovaAA.Sprint5.Task4.V9.Test
         [TestMethod]
         public void CheckedExistsFile()
         {
-            string temppath = Path.GetTempPath();
-            string path = Path.Combine(temppath, "InPutDataFileTask4V9.txt");
+            string path = Path.Combine(Path.GetTempPath(), "InPutDataFileTask4V9.txt");
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;
             Assert.AreEqual(true, fileExists);
