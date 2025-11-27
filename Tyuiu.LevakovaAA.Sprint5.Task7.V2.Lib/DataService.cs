@@ -20,7 +20,7 @@ namespace Tyuiu.LevakovaAA.Sprint5.Task7.V2.Lib
             }
             string text = File.ReadAllText(path);
             string res = Regex.Replace(text, @"\d", "#");
-            return pathSaveFile;
+            return res;
         }
     }
 }
